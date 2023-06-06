@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+main {
+
+ 
+  display: flex;
+
+}
+
+.bild_1 {
+  background-image: url('../images/abdulla-al-rokhaimi-pRlbr85Jvqw-unsplash.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 500px;
+  filter: grayscale(1);
+}
+
+.bild_2 {
+  background-image: url('../images/gian-gomez-SU6MbWxLozY-unsplash.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 500px;
+  filter: grayscale(1);
+}
+
+.bild_3 {
+  background-image: url('../images/dima-panyukov-DwxlhTvC16Q-unsplash.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 500px;
+  filter: grayscale(1);
+}
+
+.bild_4 {
+  background-image: url('../images/lance-asper-dxJ80oNvnhE-unsplash.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 500px;
+  filter: grayscale(1);
+}
+div:hover{
+  width: 1000px;
+  filter: grayscale(0);
+  transition: all 300ms ease-in-out;
+}
