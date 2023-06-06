@@ -5,10 +5,7 @@
 }
 
 main {
-
- 
   display: flex;
-
 }
 
 .bild_1 {
@@ -16,8 +13,8 @@ main {
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
-  width: 500px;
   filter: grayscale(1);
+  flex-grow: 1;
 }
 
 .bild_2 {
@@ -25,8 +22,8 @@ main {
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
-  width: 500px;
   filter: grayscale(1);
+  flex-grow: 1;
 }
 
 .bild_3 {
@@ -34,8 +31,8 @@ main {
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
-  width: 500px;
   filter: grayscale(1);
+  flex-grow: 1;
 }
 
 .bild_4 {
@@ -43,11 +40,12 @@ main {
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
-  width: 500px;
   filter: grayscale(1);
+  flex-grow: 1;
 }
-div:hover{
-  width: 1000px;
+
+div:hover {
+  flex-grow: 2;
   filter: grayscale(0);
   transition: all 300ms ease-in-out;
 }
