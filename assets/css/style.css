@@ -4,48 +4,38 @@
   box-sizing: border-box;
 }
 
-main {
+section {
   display: flex;
+  align-content: stretch;
+  height: 100vh;
+}
+div {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  filter: grayscale(1);
+  flex: 2;
+  flex-grow: 1;
+  width: 25%;
+  transition: all 300ms ease-in-out;
 }
 
 .bild_1 {
   background-image: url('../images/abdulla-al-rokhaimi-pRlbr85Jvqw-unsplash.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 100vh;
-  filter: grayscale(1);
-  flex-grow: 1;
 }
 
 .bild_2 {
   background-image: url('../images/gian-gomez-SU6MbWxLozY-unsplash.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 100vh;
-  filter: grayscale(1);
-  flex-grow: 1;
 }
 
 .bild_3 {
   background-image: url('../images/dima-panyukov-DwxlhTvC16Q-unsplash.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 100vh;
-  filter: grayscale(1);
-  flex-grow: 1;
 }
-
 .bild_4 {
   background-image: url('../images/lance-asper-dxJ80oNvnhE-unsplash.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 100vh;
-  filter: grayscale(1);
-  flex-grow: 1;
 }
 
 div:hover {
   flex-grow: 2;
-  filter: grayscale(0);
-  transition: all 300ms ease-in-out;
+  filter: none;
 }
